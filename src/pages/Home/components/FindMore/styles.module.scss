@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+
+  > div {
+    display: flex;
+    align-items: center;
+    > img {
+      width: 260px;
+      height: 260px;
+      object-fit: cover;
+    }
+  }
+}
