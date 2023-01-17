@@ -13,18 +13,7 @@ const FindMore = () => {
 
   return (
     <div className={styles.container}>
-      <div>
-        <div>
-          <img src={Plant4}/>
-        </div>
-        <div>
-          <h2>SUMMER CACTUS & SUCCULENTS</h2>
-          <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
-          <Button title="Find More"/>
-        </div>
-      </div>
-
-      <div>
+      <div className={styles.box_block}>
         <img src={Plant4}/>
         <div>
           <div>
@@ -34,7 +23,22 @@ const FindMore = () => {
             <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
           </div>
           <div>
-            {/* <Button title="Find More"/> */}
+            <Button title="Find More"/>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.box_block}>
+        <img src={Plant4}/>
+        <div>
+          <div>
+            <h2>SUMMER CACTUS & SUCCULENTS</h2>
+          </div>
+          <div>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+          </div>
+          <div>
+            <Button title="Find More"/>
           </div>
         </div>
       </div>
